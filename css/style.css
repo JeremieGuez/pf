@@ -881,16 +881,26 @@ body.mobile-nav-active #mobile-nav-toggle {
 
 .classmodal {
   width: 614px;
-    margin-left: -31px;
-    border: none;
+  margin-left: -31px;
+  border: none;
   
 }
 .img-modal {
-   margin-left: -15px;
-    margin-top: -16px;
-    width: 105%;margin-bottom:14px
+  margin-left: -15px;
+  margin-top: -16px;
+  width: 100%;
+  margin-bottom:14px;
   
 }
 .description{
-  font-size:14px;margin-top:12px;
+  font-size:14px;
+  margin-top:12px;
 }
+
+@media only screen and (max-width: 500px) {
+  .classmodal {
+    width: 100%;
+    margin-left: 1px;
+    border: none;
+  }
+
